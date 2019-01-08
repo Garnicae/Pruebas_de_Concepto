@@ -12,7 +12,7 @@ object TestFTP  {
     val jsch = new JSch()
     val session = jsch.getSession(user, host, 22)
     session.setPassword(password)
-    session.setConfig("StrictHostKeyChecking", "no")
+    session.setConfig( "StrictHostKeyChecking", "no" );
     session.connect()
 
     if(session.isConnected)
@@ -44,7 +44,7 @@ object TestFTP  {
     // Se imprime cada una de las lineas del archivo leído
     var line: String = null
     while ({line = br.readLine; line != null}) {
-      println(line)
+      //println(line)
     }
     br.close
 

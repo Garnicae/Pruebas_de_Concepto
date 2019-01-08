@@ -24,6 +24,34 @@
             <version>0.1.54</version>
         </dependency>
 
+        <!-- Dependencia de MongoDB -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>casbah_2.11</artifactId>
+            <version>3.1.1</version>
+            <type>pom</type>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.6</version>
+        </dependency>
+
+
     </dependencies>
 
 
