@@ -10,7 +10,7 @@ object DriverMongo {
   var host = "10.15.191.136"
   var port = 27017
   var db = "test"
-  var collection = "CFDI_MALLAS"
+  var collection = "CFDI_MALLADO"
   var auth = "None"
   var user = "usuario"
   var pass = "password"
@@ -51,7 +51,11 @@ object DriverMongo {
       println(s"Se ha insertado el documento en la colección $collection correctamente !!!")
       logger.info(s"Se ha insertado el documento en la colección $collection correctamente !!!")
     }
-    //insertarDocumento(collection, doc1) // Inserta un documento a la colección
+
+    if(insertarDocumento(collection, doc1) == 1) { // Inserta un documento a la colección
+      println(s"Se ha insertado el documento en la colección $collection correctamente !!!")
+      logger.info(s"Se ha insertado el documento en la colección $collection correctamente !!!")
+    }
 
     if (consultarInsumos(collection,1,"FACTURAS") == 1) {
       println("Consulta exitosa !!!")

@@ -42,10 +42,12 @@ object TestFTP  {
     val stream = sftp.asInstanceOf[ChannelSftp].get(folderFiles + "airports.text")
     val br = new BufferedReader(new InputStreamReader(stream))
     // Se imprime cada una de las lineas del archivo leído
+    println()
     var line: String = null
     while ({line = br.readLine; line != null}) {
       //println(line)
     }
+
     br.close
 
     sftp.disconnect()

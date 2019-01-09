@@ -2,50 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa097c4-d5df-45c9-8b31-8cf25050487b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverMongo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mx/test/Hash.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DriverMongo$$anonfun$consultarInsumos$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DriverMongo$$anonfun$crearColeccionIndices$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DriverMongo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DriverMongo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Hash$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Hash.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$13$$anonfun$apply$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$15$$anonfun$apply$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$15$$anonfun$apply$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$17$$anonfun$apply$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$17$$anonfun$apply$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$18$$anonfun$apply$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$6$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$7$$anonfun$apply$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$8$$anonfun$apply$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PruebaHola$$anonfun$main$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaConsumer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaProducer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mx/test/PruebaHola.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mx/test/PruebaHola.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverMongo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverMongo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/mx/test/TestFTP.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mx/test/TestFTP.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PruebaHola$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PruebaHola$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverMongo$$anonfun$consultarInsumos$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DriverMongo$$anonfun$consultarInsumos$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverMongo$$anonfun$crearColeccionIndices$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DriverMongo$$anonfun$crearColeccionIndices$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverMongo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DriverMongo$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestFTP$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestFTP$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,8 +26,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="99">
+              <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaProducer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="e#1#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaConsumer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,17 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mx/test/Hash.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mx/test/TestFTP.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="232">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -88,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mx/drivers/DriverMongo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="161" column="16" lean-forward="true" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
+            <state relative-caret-position="-17">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -103,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mx/test/PruebaHola.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
+            <state relative-caret-position="476">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -135,19 +124,21 @@
         <option value="$PROJECT_DIR$/src/main/scala/mx/test/Worksheet.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/mx/test/script.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mx/test/PruebaHola.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/mx/test/TestFTP.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mx/test/Hash.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverMongo.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mx/test/TestFTP.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,8 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,8 +206,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546907985209" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebService/spark-as-service-using-embedded-server" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546990842555" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/pruebas" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -233,7 +224,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DriverMongo">
+  <component name="RunManager" selected="Application.TestFTP">
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ConsumerExample" />
+      <module name="Pruebas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DriverMongo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DriverMongo" />
       <module name="Pruebas" />
@@ -248,8 +246,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prueba" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="PruebaHola" />
+    <configuration name="ProducerExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerExample" />
       <module name="Pruebas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,22 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="Pruebas" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFTP" />
+        <item itemvalue="Application.ProducerExample" />
+        <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.DriverMongo" />
         <item itemvalue="Application.Hash" />
-        <item itemvalue="Application.TestFTP" />
-        <item itemvalue="Application.Prueba" />
-        <item itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +296,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,7 +305,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28150573" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38625205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,26 +342,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mx/test/TestFTP.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mx/test/PruebaHola.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
+        <state relative-caret-position="476">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -380,19 +352,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mx/test/Hash.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mx/drivers/DriverKafkaProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#1#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mx/drivers/DriverMongo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="161" column="16" lean-forward="true" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
+        <state relative-caret-position="-17">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mx/test/TestFTP.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
