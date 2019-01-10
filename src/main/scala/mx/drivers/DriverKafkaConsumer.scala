@@ -10,7 +10,7 @@ object ConsumerExample {
     val portServer = "9092"
     val topic = "test"
 
-    val  props = new Properties()
+    val props = new Properties()
     props.put("bootstrap.servers", s"$host:$portServer")
 
     props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
@@ -20,9 +20,9 @@ object ConsumerExample {
     val consumer = new KafkaConsumer[String, String](props)
     consumer.subscribe(util.Collections.singletonList(topic))
 
-    while(true){
-      val records=consumer.poll(100)
-      for (record<-records.asScala){
+    while (true) {
+      val records = consumer.poll(100)
+      for (record <- records.asScala) {
         println(record)
       }
     }

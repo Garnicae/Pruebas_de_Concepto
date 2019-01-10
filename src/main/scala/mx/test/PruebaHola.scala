@@ -1,8 +1,14 @@
+import org.slf4j.LoggerFactory
+
 import scala.collection.mutable
 import scala.collection.immutable
 
+
 object PruebaHola {
+  var logger = LoggerFactory.getLogger(getClass)
+
   def main(args: Array[String]): Unit = {
+    logger.info("Hola, scala")
     println("Hola, scala")
 
     val mes = 1
