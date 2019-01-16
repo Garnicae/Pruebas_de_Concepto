@@ -15,8 +15,6 @@ object ProducerExample {
 
     val producer = new KafkaProducer[String, String](props)
 
-    val TOPIC="test"
-
     for(i<- 1 to 50){
       val record = new ProducerRecord(topic, "key", s"hello $i")
       producer.send(record)
