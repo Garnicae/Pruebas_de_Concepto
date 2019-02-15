@@ -3,7 +3,6 @@ import java.math.BigInteger
 import java.security.MessageDigest
 
 import com.jcraft.jsch.{ChannelSftp, JSch}
-import org.apache.spark.{SparkConf, SparkContext, rdd}
 import org.slf4j.LoggerFactory
 
 object TestFTP  {
@@ -12,7 +11,7 @@ object TestFTP  {
     // Variables de conexión al FileSystem
     val logger = LoggerFactory.getLogger(getClass)
     val user = "root"
-    val host = "10.15.191.136"
+    val host = "10.15.191.150"
     val password = "centos"
     val folderFiles = "/root/hadoop/files/in/"
 
@@ -52,6 +51,7 @@ object TestFTP  {
     println("\n")
 
     // Se lee un archivo del directorio
+    //val stream = sftp.asInstanceOf[ChannelSftp].get(folderFiles + "book7.xlsx")
     val stream = sftp.asInstanceOf[ChannelSftp].get(folderFiles + "CONSTANCIABANCO2015.txt")
     val br = new BufferedReader(new InputStreamReader(stream))
 
@@ -60,6 +60,12 @@ object TestFTP  {
     var num_line = 1
     var start_flag = "CONTROLRET"
     var rdds = scala.collection.mutable.ListBuffer.empty[(String, Int, String, String)]
+
+    //////////////////////////////////////////////////////
+    while ({line = br.readLine; line != null}) {
+      println(line)
+    }
+    /////////////////////////////////////////////////////////
 
     // Se va leyendo el archivo linea por linea
     while ({line = br.readLine; line != null}) {

@@ -3,7 +3,7 @@ import org.apache.kafka.clients.producer._
 
 object ProducerExample {
 
-  val host = "10.15.191.136"
+  val host = "10.15.191.150"
   val portServer = "9092"
   val topic = "test"
 
