@@ -52,7 +52,7 @@ object TestFTP  {
 
     // Se lee un archivo del directorio
     //val stream = sftp.asInstanceOf[ChannelSftp].get(folderFiles + "book7.xlsx")
-    val stream = sftp.asInstanceOf[ChannelSftp].get(folderFiles + "CONSTANCIABANCO2015.txt")
+    val stream = sftp.asInstanceOf[ChannelSftp].get(folderFiles + "data.txt")
     val br = new BufferedReader(new InputStreamReader(stream))
 
     // Variables dentro del recorrido del archivo
