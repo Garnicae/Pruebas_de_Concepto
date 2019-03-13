@@ -3,7 +3,7 @@ import org.apache.kafka.clients.consumer.KafkaConsumer
 import scala.collection.JavaConverters._
 import java.util.Properties
 
-object ConsumerExample {
+object DriverKafkaConsumer1 {
 
   def main(args: Array[String]): Unit = {
     val host = "10.15.191.150"

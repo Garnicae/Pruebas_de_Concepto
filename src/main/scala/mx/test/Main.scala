@@ -1,6 +1,8 @@
 
 import Models.{DatosPersonales, Domicilio}
-import com.google.gson.Gson
+import com.google.gson.{Gson, JsonParser}
+
+import scala.util.parsing.json.JSONObject
 
 object Main {
   def main(args: Array[String]): Unit = {
@@ -38,6 +40,18 @@ object Main {
     var gson = new Gson()
     var json = gson.toJson(persona2)
     println(json)
+
+
+    var parser = new JsonParser()
+    var parse = parser.parse(json).getAsJsonObject
+
+    println(parse.get("nombre").getAsString)
+    println(parse.get("apellidos"))
+    println(parse.get("edad").getAsInt)
+    println(parse.get("telefono"))
+
+    var direcc = parse.get("direccion").getAsJsonObject
+
 
   }
 }

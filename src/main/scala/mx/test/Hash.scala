@@ -5,7 +5,7 @@ object Hash {
   def main(args: Array[String]): Unit = {
     println("Scala, hash ...")
 
-    println(hashString("hugo"))
+    println(hashString("Hola"))
     // 256 bits = 64 caracteres
     // 224, 256, 384, 512
     // MD-5 = 32 caracteres

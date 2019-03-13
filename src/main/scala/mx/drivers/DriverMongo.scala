@@ -1,8 +1,9 @@
-import com.mongodb.casbah.commons.MongoDBObject
-import com.mongodb.{BasicDBList, BasicDBObject, DBCursor, DBObject}
-import com.mongodb.casbah.{MongoClient, MongoDB}
-import org.slf4j.LoggerFactory
+//import com.mongodb.casbah.commons.MongoDBObject
+//import com.mongodb.{BasicDBList, BasicDBObject, DBObject}
+//import com.mongodb.casbah.{MongoClient, MongoDB}
+//import org.slf4j.LoggerFactory
 
+/*
 object DriverMongo {
 
   var logger = LoggerFactory.getLogger(getClass)
@@ -22,13 +23,14 @@ object DriverMongo {
     println("Hola, mongo")
 
     val insumos = List("CFDFACTORAJEFACTURAS", "CFDCONFIRMINGFACTURAS")
+
+    val insumos1 = List("CFDOPOPICS")
     var doc = MongoDBObject(
       "categoria" -> "FACTURAS",
       "num_malla" -> 1,
       "descripcion" -> "FACTORAJE",
       "insumo" -> insumos
     )
-    val insumos1 = List("CFDOPOPICS")
     var doc1 = MongoDBObject(
       "categoria" -> "FACTURAS",
       "num_malla" -> 2,
@@ -164,4 +166,4 @@ object DriverMongo {
     return 1
   }
 
-}
+}*/

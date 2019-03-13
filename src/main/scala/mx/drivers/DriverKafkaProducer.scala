@@ -20,8 +20,8 @@ object ProducerExample {
       producer.send(record)
     }
 
-    val record = new ProducerRecord(topic, "key", "the end "+new java.util.Date)
-    producer.send(record)
+    //val record = new ProducerRecord(topic, "key", "the end "+new java.util.Date)
+    //producer.send(record)
     producer.close()
   }
 }

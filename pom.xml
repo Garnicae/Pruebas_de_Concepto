@@ -29,12 +29,12 @@
         </dependency>
 
         <!-- Dependencia de MongoDB -->
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>casbah_2.11</artifactId>
-            <version>3.1.1</version>
-            <type>pom</type>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.mongodb</groupId>-->
+            <!--<artifactId>casbah_2.11</artifactId>-->
+            <!--<version>3.1.1</version>-->
+            <!--<type>pom</type>-->
+        <!--</dependency>-->
 
         <!-- Dependencias de Log -->
         <dependency>
@@ -109,6 +109,13 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.2.2</version>
+        </dependency>
+
+        <!-- Mongo Scala-->
+        <dependency>
+            <groupId>org.mongodb.scala</groupId>
+            <artifactId>mongo-scala-driver_2.11</artifactId>
+            <version>2.6.0</version>
         </dependency>
 
     </dependencies>
